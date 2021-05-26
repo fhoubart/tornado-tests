@@ -1,10 +1,10 @@
-package org.tornado;
+package org.tornado.entities;
 
-class User {
+public class User {
     private String name;
     private String email;
     
-    public constructor(String name, String email) {
+    public User(String name, String email) {
         this.name = name;
         this.email = email;
     }
